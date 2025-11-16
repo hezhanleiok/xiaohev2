@@ -1,0 +1,7 @@
+{
+  "name": "xiaohev2",
+  "description": "xiaohev2 is a clean and simple client interface for managing server configurations locally.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
