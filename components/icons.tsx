@@ -38,11 +38,9 @@ export const ShieldCheckIcon = ({ className = 'w-6 h-6' }: { className?: string 
 );
 
 export const ShareIcon = ({ className = "w-6 h-6" }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.195.025.39.042.586.042h4.414c.196 0 .39-.017.586-.042m-5.586 2.186a2.25 2.25 0 01-2.186 0M12 18.75c.621 0 1.198-.146 1.745-.417m-3.49 0a2.25 2.25 0 01-2.186 0M12 12.75a2.25 2.25 0 002.25-2.25V7.5a2.25 2.25 0 00-4.5 0v3a2.25 2.25 0 002.25 2.25z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 15a2.25 2.25 0 01-2.25-2.25V7.5a2.25 2.25 0 014.5 0v5.25A2.25 2.25 0 0112 15z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v.01M16.5 6.375l-.01.01M19.5 12l-.01.01M16.5 17.625l-.01.01M12 21v-.01M7.5 17.625l.01.01M4.5 12l.01.01M7.5 6.375l.01.01" />
-    </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" />
+  </svg>
 );
 
 export const XMarkIcon = ({ className = "w-6 h-6" }: { className?: string }) => (
