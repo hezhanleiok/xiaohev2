@@ -1,21 +1,29 @@
 {
   "name": "xiaohev2",
+  "version": "1.0.0",
+  "description": "A clean and simple cross-platform client for managing server configurations.",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "// 1. (仅需一次) 添加你想要打包的平台": "----------",
+    "add:android": "npx cap add android",
+    "add:ios": "npx cap add ios",
+    "add:desktop": "npx cap add @capacitor-community/electron",
+    "// 2. (每次修改WEB代码后) 同步代码到原生平台": "----------",
+    "sync": "npx cap sync",
+    "// 3. 在对应的开发工具中打开原生项目": "----------",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios",
+    "open:desktop": "npx cap open @capacitor-community/electron"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@capacitor-community/electron": "^5.1.1",
+    "@capacitor/android": "^6.1.1",
+    "@capacitor/cli": "^6.1.1",
+    "@capacitor/core": "^6.1.1",
+    "@capacitor/ios": "^6.1.1"
   }
 }
